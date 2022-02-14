@@ -32244,6 +32244,24 @@ video {
   content: none;
 }
 
+/* @layer base{
+    a {
+        @apply text-green-500 underline;
+    }
+} */
+
+/* @layer components {
+    .menu-button{
+        @apply text-white bg-indigo-300 p-3
+    }
+} */
+
+/* @layer utilities{
+    .text-green-500{
+        color: blue;
+    } 
+} */
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
